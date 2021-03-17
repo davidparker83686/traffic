@@ -1,0 +1,69 @@
+
+main{
+  background:  rgb(53, 53, 53);
+}
+
+
+.pole{
+  background: rgb(109, 109, 109);
+  width: 5em;
+  height: 9em;
+  margin: auto;
+}
+
+.box {
+  background: rgb(109, 109, 109);
+  width: 15em;
+  height: 35em;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+
+.red {
+  background-color: red;
+}
+
+.red:hover{
+  background-color: darkred;
+  box-shadow: 0 0 1.5em 1em pink;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: yellow;
+  
+}
+
+.yellow:hover{
+  background-color: rgb(167, 167, 0);
+  box-shadow: 0 0 1.5em 1em rgb(255, 247, 248);
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+}
+
+.green:hover{
+  background-color: darkgreen;
+  box-shadow: 0 0 1.5em 1em rgb(68, 214, 0);
+  cursor: pointer;
+}
+
+
+.light{
+  background-image: url(https://www.searchpng.com/wp-content/uploads/2019/02/Black-Dots-background-PNG-715x715.png);
+  background-size:cover;
+  
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  margin: auto;
+}
+
+
